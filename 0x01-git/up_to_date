@@ -15,6 +15,9 @@ git config --global user.name
 git add .
 git commit -m 'My first commit'
 mkdir 0x01-git
+cd 0x01-git
+echo 'My second readme' >README.md
+cat README.md
 git commit -m 'My second commit'
 git push
 mkdir bash c js
